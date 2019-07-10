@@ -7,4 +7,4 @@ Visit the shop at [Feefer Design](http://feeferdesign.com/)!
 My Thingiverse: [IGotYourDoughnut](https://www.thingiverse.com/IGotYourDoughnut/about)
 My Pinshape: [FeeferDesign](https://pinshape.com/users/297841-feeferdesign#designs-tab-open)
 
-Also check us out on [Instagram](www.instagram.com/feeferdesign) and [Facebook](www.facebook.com/feeferdesign)!
+Also check us out on [Instagram](http://www.instagram.com/feeferdesign) and [Facebook](http://www.facebook.com/feeferdesign)!
