@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="TPU - SainSmart - Rostock Max v3 - 0.5mm" version="2019-06-22 12:59:50" app="S3D-Software 4.1.1">
+<profile name="TPU - SainSmart - Rostock Max v3 - 0.5mm" version="2019-07-31 17:24:16" app="S3D-Software 4.1.1">
   <baseProfile>Rostock MAX v3 (modified)</baseProfile>
   <printMaterial>SainSmart TPU - Supports</printMaterial>
   <printQuality>Medium</printQuality>
@@ -10,11 +10,11 @@
     <autoWidth>1</autoWidth>
     <width>0.6</width>
     <extrusionMultiplier>1.1</extrusionMultiplier>
-    <useRetract>0</useRetract>
-    <retractionDistance>6.5</retractionDistance>
+    <useRetract>1</useRetract>
+    <retractionDistance>5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0.3</retractionZLift>
-    <retractionSpeed>6600</retractionSpeed>
+    <retractionSpeed>3500</retractionSpeed>
     <useCoasting>1</useCoasting>
     <coastingDistance>0.2</coastingDistance>
     <useWipe>1</useWipe>
@@ -31,7 +31,7 @@
   <startPointOriginY>0</startPointOriginY>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>95</firstLayerHeightPercentage>
+  <firstLayerHeightPercentage>92</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>160</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
   <useRaft>0</useRaft>
@@ -70,7 +70,7 @@
   <internalInfillAngles>0,60,-60</internalInfillAngles>
   <overlapInternalInfillAngles>1</overlapInternalInfillAngles>
   <externalInfillAngles>45,-45</externalInfillAngles>
-  <generateSupport>1</generateSupport>
+  <generateSupport>0</generateSupport>
   <supportExtruder>0</supportExtruder>
   <supportInfillPercentage>30</supportInfillPercentage>
   <supportExtraInflation>0</supportExtraInflation>
@@ -156,7 +156,7 @@
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
-  <rapidXYspeed>4800</rapidXYspeed>
+  <rapidXYspeed>6000</rapidXYspeed>
   <rapidZspeed>1002</rapidZspeed>
   <minBridgingArea>50</minBridgingArea>
   <bridgingExtraInflation>0</bridgingExtraInflation>
@@ -316,11 +316,11 @@
       <autoWidth>1</autoWidth>
       <width>0.6</width>
       <extrusionMultiplier>1.1</extrusionMultiplier>
-      <useRetract>0</useRetract>
-      <retractionDistance>6.5</retractionDistance>
+      <useRetract>1</useRetract>
+      <retractionDistance>5</retractionDistance>
       <extraRestartDistance>0</extraRestartDistance>
       <retractionZLift>0.3</retractionZLift>
-      <retractionSpeed>6600</retractionSpeed>
+      <retractionSpeed>3500</retractionSpeed>
       <useCoasting>1</useCoasting>
       <coastingDistance>0.2</coastingDistance>
       <useWipe>1</useWipe>
