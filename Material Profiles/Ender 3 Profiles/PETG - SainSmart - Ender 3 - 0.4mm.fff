@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="PETG - SainSmart - Ender 3 - 0.4mm" version="2019-07-15 20:55:07" app="S3D-Software 4.1.1">
+<profile name="PETG - SainSmart - Ender 3 - 0.4mm" version="2019-09-22 18:58:58" app="S3D-Software 4.1.1">
   <baseProfile>Creality Ender 3</baseProfile>
   <printMaterial>PETG</printMaterial>
   <printQuality>Medium</printQuality>
@@ -151,7 +151,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>5400</defaultSpeed>
+  <defaultSpeed>2400</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
