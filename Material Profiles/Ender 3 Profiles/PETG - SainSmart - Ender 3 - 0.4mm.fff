@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="PETG - SainSmart - Ender 3 - 0.4mm" version="2019-10-27 15:30:23" app="S3D-Software 4.1.1">
+<profile name="PETG - SainSmart - Ender 3 - 0.4mm" version="2019-10-27 20:18:38" app="S3D-Software 4.1.1">
   <baseProfile>Creality Ender 3</baseProfile>
   <printMaterial>PETG</printMaterial>
   <printQuality>Medium</printQuality>
@@ -32,7 +32,7 @@
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
   <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
-  <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
+  <firstLayerWidthPercentage>110</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
   <useRaft>0</useRaft>
   <raftExtruder>0</raftExtruder>
