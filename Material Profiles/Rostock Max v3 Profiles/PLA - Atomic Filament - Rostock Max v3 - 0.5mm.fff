@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="PLA - Atomic Filament - Rostock Max v3 - 0.5mm" version="2019-06-22 13:01:34" app="S3D-Software 4.1.1">
+<profile name="PLA - Atomic Filament - Rostock Max v3 - 0.5mm" version="2019-11-09 14:31:52" app="S3D-Software 4.1.1">
   <baseProfile>Rostock MAX v3 (modified)</baseProfile>
   <printMaterial>Atomic -  PLA</printMaterial>
   <printQuality>Medium</printQuality>
@@ -9,7 +9,7 @@
     <diameter>0.5</diameter>
     <autoWidth>1</autoWidth>
     <width>0.6</width>
-    <extrusionMultiplier>1</extrusionMultiplier>
+    <extrusionMultiplier>1.1</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>5.5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -31,10 +31,10 @@
   <startPointOriginY>0</startPointOriginY>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>90</firstLayerHeightPercentage>
-  <firstLayerWidthPercentage>160</firstLayerWidthPercentage>
+  <firstLayerHeightPercentage>85</firstLayerHeightPercentage>
+  <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
-  <useRaft>1</useRaft>
+  <useRaft>0</useRaft>
   <raftExtruder>0</raftExtruder>
   <raftTopLayers>3</raftTopLayers>
   <raftBaseLayers>5</raftBaseLayers>
@@ -42,10 +42,10 @@
   <raftSeparationDistance>0.14</raftSeparationDistance>
   <raftTopInfill>100</raftTopInfill>
   <aboveRaftSpeedMultiplier>0.3</aboveRaftSpeedMultiplier>
-  <useSkirt>0</useSkirt>
+  <useSkirt>1</useSkirt>
   <skirtExtruder>0</skirtExtruder>
   <skirtLayers>1</skirtLayers>
-  <skirtOutlines>3</skirtOutlines>
+  <skirtOutlines>2</skirtOutlines>
   <skirtOffset>2</skirtOffset>
   <usePrimePillar>0</usePrimePillar>
   <primePillarExtruder>999</primePillarExtruder>
@@ -221,7 +221,7 @@
   <autoConfigureMaterial name="Atomic -  PLA">
     <globalExtruderTemperature>195</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
-    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>1.1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="2" speed="100"/>
