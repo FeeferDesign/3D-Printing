@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="PETG - SainSmart - Ender 3 - 0.4mm" version="2019-10-27 20:18:38" app="S3D-Software 4.1.1">
+<profile name="PETG - SainSmart - Ender 3 - 0.4mm" version="2019-11-10 14:03:52" app="S3D-Software 4.1.1">
   <baseProfile>Creality Ender 3</baseProfile>
   <printMaterial>PETG</printMaterial>
   <printQuality>Medium</printQuality>
@@ -90,7 +90,7 @@
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="240"/>
+    <setpoint layer="1" temperature="230"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
@@ -151,7 +151,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>2200</defaultSpeed>
+  <defaultSpeed>1950</defaultSpeed>
   <outlineUnderspeed>0.8</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.5</supportUnderspeed>
@@ -223,7 +223,7 @@
       <temperatureNumber>0</temperatureNumber>
       <isHeatedBed>0</isHeatedBed>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="240"/>
+      <setpoint layer="1" temperature="230"/>
     </temperatureController>
     <globalBedTemperature>90</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
