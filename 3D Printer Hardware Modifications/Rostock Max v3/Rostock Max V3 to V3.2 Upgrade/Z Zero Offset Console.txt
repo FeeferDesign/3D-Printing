@@ -1,0 +1,23 @@
+﻿12:47:19 PM: G0 Z0
+12:47:14 PM: M500
+12:47:01 PM: G32: Calibrated 6 factors using 10 points, deviation before 0.126 after 0.116
+12:46:10 PM: G31 P100 X0 Y0 Z-0.25
+12:45:26 PM: G0 Z0
+12:45:22 PM: M500
+12:45:01 PM: G32: Calibrated 6 factors using 10 points, deviation before 0.282 after 0.083
+12:44:21 PM: G62: Warning: G62 command is not supported
+12:44:13 PM: G31 P100 X0 Y0 Z-0.2
+12:42:56 PM: G0 Z0
+12:42:45 PM: M500
+12:42:27 PM: G32: Calibrated 6 factors using 10 points, deviation before 0.182 after 0.096
+12:41:45 PM: G31 P100 X0 Y0 Z0.05
+12:41:32 PM: G28
+12:40:48 PM: G0 Z0
+12:40:38 PM: M500
+12:39:17 PM: G32: Calibrated 6 factors using 10 points, deviation before 0.227 after 0.135
+12:38:36 PM: G33: Warning: G33 command is not supported
+12:38:13 PM: G31 P100 X0 Y0 Z-0.1
+12:37:20 PM: G0 Z0
+12:37:13 PM: G28
+12:36:44 PM: G0 Z0: Error: G0/G1: insufficient axes homed
+12:36:36 PM: Message Log cleared!
