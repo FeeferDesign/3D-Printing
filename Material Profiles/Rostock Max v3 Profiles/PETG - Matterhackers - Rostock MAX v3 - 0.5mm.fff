@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="PETG - Matterhackers - Rostock MAX v3 - 0.5mm" version="2021-04-03 17:26:55" app="S3D-Software 4.1.2">
+<profile name="PETG - Matterhackers - Rostock MAX v3 - 0.5mm" version="2021-04-05 15:11:35" app="S3D-Software 4.1.2">
   <baseProfile>Rostock MAX v3</baseProfile>
   <printMaterial>PETG</printMaterial>
   <printQuality>Medium</printQuality>
@@ -9,7 +9,7 @@
     <diameter>0.5</diameter>
     <autoWidth>0</autoWidth>
     <width>0.5</width>
-    <extrusionMultiplier>0.93</extrusionMultiplier>
+    <extrusionMultiplier>0.9</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>3.2</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -64,13 +64,13 @@
   <externalInfillPattern>Rectilinear</externalInfillPattern>
   <infillPercentage>20</infillPercentage>
   <outlineOverlapPercentage>30</outlineOverlapPercentage>
-  <infillExtrusionWidthPercentage>120</infillExtrusionWidthPercentage>
+  <infillExtrusionWidthPercentage>135</infillExtrusionWidthPercentage>
   <minInfillLength>5</minInfillLength>
   <infillLayerInterval>1</infillLayerInterval>
   <internalInfillAngles>45,-45</internalInfillAngles>
   <overlapInternalInfillAngles>0</overlapInternalInfillAngles>
   <externalInfillAngles>45,-45</externalInfillAngles>
-  <generateSupport>1</generateSupport>
+  <generateSupport>0</generateSupport>
   <supportExtruder>0</supportExtruder>
   <supportInfillPercentage>30</supportInfillPercentage>
   <supportExtraInflation>0</supportExtraInflation>
@@ -221,7 +221,7 @@
   <autoConfigureMaterial name="PETG">
     <globalExtruderTemperature>235</globalExtruderTemperature>
     <globalBedTemperature>70</globalBedTemperature>
-    <globalExtrusionMultiplier>0.93</globalExtrusionMultiplier>
+    <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="2" speed="50"/>
