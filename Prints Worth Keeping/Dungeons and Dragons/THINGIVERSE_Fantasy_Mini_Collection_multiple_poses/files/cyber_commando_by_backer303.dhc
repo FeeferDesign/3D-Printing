@@ -1,0 +1,1229 @@
+{
+ "components": [
+  {
+   "category": "body",
+   "bone_id": "57a6f31f-b176-45c0-95f8-7a97f8490450",
+   "instance_id": ">body_bone",
+   "attach_to": "None",
+   "attach_point": "None"
+  },
+  {
+   "category": "tail",
+   "bone_id": "b6513ea5-f466-4ee8-8679-13045604c15b",
+   "instance_id": ">tail_bone",
+   "attach_to": ">body_bone",
+   "attach_point": "#tail"
+  },
+  {
+   "category": "neck",
+   "bone_id": "18e7b849-13a7-406d-a7df-39f3ce1d1bba",
+   "instance_id": ">neck_bone",
+   "attach_to": ">body_bone",
+   "attach_point": "#neck"
+  },
+  {
+   "category": "head",
+   "bone_id": "062e8d46-9a7d-4da8-b872-6ae25381adea",
+   "instance_id": ">head_bone",
+   "attach_to": ">neck_bone",
+   "attach_point": "#top"
+  },
+  {
+   "category": "wings",
+   "bone_id": "b59eadee-b821-4332-95f5-4c2d06a7a356",
+   "instance_id": ">wings_bone",
+   "attach_to": ">body_bone",
+   "attach_point": "#back mid high"
+  },
+  {
+   "category": "left arm",
+   "bone_id": "4f24844c-7741-431a-88db-31a0a6842742",
+   "instance_id": ">left_arm_bone",
+   "attach_to": ">body_bone",
+   "attach_point": "#left arm"
+  },
+  {
+   "category": "left hand",
+   "bone_id": "ba43822e-1bc4-4245-950f-e2ea996627fd",
+   "instance_id": ">left_hand_bone",
+   "attach_to": ">left_arm_bone",
+   "attach_point": "#hand"
+  },
+  {
+   "category": "weapon",
+   "bone_id": "366bb69b-8f07-4359-8e1b-0bd7aff589ea",
+   "instance_id": ">left_handheld_bone",
+   "attach_to": ">left_hand_bone",
+   "attach_point": "#palm"
+  },
+  {
+   "category": "right arm",
+   "bone_id": "1cf4c11b-37ee-4395-b5ca-f142bb56a887",
+   "instance_id": ">right_arm_bone",
+   "attach_to": ">body_bone",
+   "attach_point": "#right arm"
+  },
+  {
+   "category": "right hand",
+   "bone_id": "a2699bfb-21fe-43e9-80ba-9034e93df0be",
+   "instance_id": ">right_hand_bone",
+   "attach_to": ">right_arm_bone",
+   "attach_point": "#hand"
+  },
+  {
+   "category": "weapon",
+   "bone_id": "366bb69b-8f07-4359-8e1b-0bd7aff589ea",
+   "instance_id": ">right_handheld_bone",
+   "attach_to": ">right_hand_bone",
+   "attach_point": "#palm"
+  },
+  {
+   "category": "platform",
+   "bone_id": "79dde4c3-06d0-4f64-9457-c07d4274d213",
+   "instance_id": ">platform_bone",
+   "attach_to": ">body_bone",
+   "attach_point": "#platform"
+  },
+  {
+   "category": "weapon",
+   "bone_id": "366bb69b-8f07-4359-8e1b-0bd7aff589ea",
+   "instance_id": ">companion_bone",
+   "attach_to": ">platform_bone",
+   "attach_point": "#left"
+  }
+ ],
+ "categories": [
+  {
+   "name": "cloth wrap",
+   "asset_id": "abeab693-bf96-4fb7-8ee9-0e8bcbae8e5d",
+   "bone_instance_id": ">body_bone",
+   "override_category": "belt"
+  },
+  {
+   "name": "male body",
+   "asset_id": "d20f4d29-f8de-49e2-83f8-5ffdf4ea7187",
+   "bone_instance_id": ">body_bone",
+   "override_category": "body"
+  },
+  {
+   "name": "Male Studded Boots",
+   "asset_id": "d3bf49cc-f774-4453-b735-42cd03889626",
+   "bone_instance_id": ">body_bone",
+   "override_category": "footwear"
+  },
+  {
+   "name": "flat collar",
+   "asset_id": "00386b08-1740-4e87-9843-a9ed9079355c",
+   "bone_instance_id": ">body_bone",
+   "override_category": "collar"
+  },
+  {
+   "name": "patterned shirt",
+   "asset_id": "4697c99e-deb2-4a16-97f1-948cab34f546",
+   "bone_instance_id": ">body_bone",
+   "override_category": "female_shirt"
+  },
+  {
+   "name": "plate armor",
+   "asset_id": "86dfc633-6394-41ca-a5dd-67f35fe5acc4",
+   "bone_instance_id": ">body_bone",
+   "override_category": "male_shirt"
+  },
+  {
+   "name": "leg armor",
+   "asset_id": "1ce779b4-6407-40d9-9558-4c2e4ea894b4",
+   "bone_instance_id": ">body_bone",
+   "override_category": "legwear"
+  },
+  {
+   "name": "Male Long Pants",
+   "asset_id": "70778c08-f698-4a77-9952-5262ff0cf5c9",
+   "bone_instance_id": ">body_bone",
+   "override_category": "pants"
+  },
+  {
+   "name": "empty",
+   "asset_id": "d0848a47-794d-4565-ba05-2a554facdac3",
+   "bone_instance_id": ">tail_bone",
+   "override_category": "tail"
+  },
+  {
+   "name": "Female Neck",
+   "asset_id": "f230f61e-4150-48f2-9f70-d7cc9c1e7dba",
+   "bone_instance_id": ">neck_bone",
+   "override_category": "neck"
+  },
+  {
+   "name": "empty",
+   "asset_id": "d0848a47-794d-4565-ba05-2a554facdac3",
+   "bone_instance_id": ">head_bone",
+   "override_category": "horns"
+  },
+  {
+   "name": "Ninja Mask Bottom",
+   "asset_id": "2597e6a4-782d-41a0-a0da-18d606cb0d07",
+   "bone_instance_id": ">head_bone",
+   "override_category": "mask"
+  },
+  {
+   "name": "Male Head",
+   "asset_id": "1014b239-2894-4110-96a4-a3e182afbc17",
+   "bone_instance_id": ">head_bone",
+   "override_category": "head"
+  },
+  {
+   "name": "slicked back",
+   "asset_id": "508a13d3-9fbd-40ad-830f-2afd4b8b73c5",
+   "bone_instance_id": ">head_bone",
+   "override_category": "hair"
+  },
+  {
+   "name": "Backpack Small",
+   "asset_id": "dc4db0e2-6336-4237-bd52-bee2af4517bf",
+   "bone_instance_id": ">wings_bone",
+   "override_category": "wings"
+  },
+  {
+   "name": "Buff Arm Smoothed (Left)",
+   "asset_id": "091d9b11-bdef-4c73-a076-e696e4561768",
+   "bone_instance_id": ">left_arm_bone",
+   "override_category": "left_arm"
+  },
+  {
+   "name": "small left hand open",
+   "asset_id": "2344cc55-8d04-4975-8c75-64aca970f449",
+   "bone_instance_id": ">left_hand_bone",
+   "override_category": "left_hand"
+  },
+  {
+   "name": "Tower Shield",
+   "asset_id": "9a293ec3-9a25-41ff-81ab-85245851864a",
+   "bone_instance_id": ">left_handheld_bone",
+   "override_category": "left_hand_item"
+  },
+  {
+   "name": "Buff Arm Smoothed (Right)",
+   "asset_id": "3abb5536-af6f-4ce2-b8ff-9d28b203bbc5",
+   "bone_instance_id": ">right_arm_bone",
+   "override_category": "right_arm"
+  },
+  {
+   "name": "small right hand closed",
+   "asset_id": "053a2aff-21a5-4478-ae27-49e7671d32cd",
+   "bone_instance_id": ">right_hand_bone",
+   "override_category": "right_hand"
+  },
+  {
+   "name": "Musket with scope",
+   "asset_id": "a0a12579-cd90-46e7-a9e9-0d831f9448be",
+   "bone_instance_id": ">right_handheld_bone",
+   "override_category": "right_hand_item"
+  },
+  {
+   "name": "smooth circular platform",
+   "asset_id": "32e2ddc6-cc80-497e-a74b-b336074da422",
+   "bone_instance_id": ">platform_bone",
+   "override_category": "platform"
+  }
+ ],
+ "pose": {
+  "boneGroups": {
+   "name": "body",
+   "bones": {
+    "pelvis": {
+     "position": {
+      "x": -0.000171,
+      "y": -0.65577,
+      "z": 0.220833
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "left thigh": {
+     "position": {
+      "x": 0.582122,
+      "y": 0.159644,
+      "z": -0.258139
+     },
+     "rotation": {
+      "_x": 0.20928647881585055,
+      "_y": 0.21753464074599693,
+      "_z": -0.04580801189275367,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "left shin": {
+     "position": {
+      "x": 0.18991,
+      "y": -1.48852,
+      "z": 0.242256
+     },
+     "rotation": {
+      "_x": -0.2208704673054922,
+      "_y": -0.001317388759141257,
+      "_z": -0.05334775268101806,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "left foot": {
+     "position": {
+      "x": 0.333074,
+      "y": -1.81081,
+      "z": -0.535515
+     },
+     "rotation": {
+      "_x": -0.09176225871474926,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "left foot arch": {
+     "position": {
+      "x": 0.074587,
+      "y": -0.225579,
+      "z": 0.236767
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "left foot toes": {
+     "position": {
+      "x": 0.017393,
+      "y": -0.105367,
+      "z": 0.19909
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "left butt": {
+     "position": {
+      "x": 0.5661,
+      "y": 0.532875,
+      "z": -0.673496
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "right thigh": {
+     "position": {
+      "x": -0.578727,
+      "y": 0.159644,
+      "z": -0.258139
+     },
+     "rotation": {
+      "_x": -0.10306659581755373,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "right shin": {
+     "position": {
+      "x": -0.185489,
+      "y": -1.48852,
+      "z": 0.242256
+     },
+     "rotation": {
+      "_x": -0.13127277598492762,
+      "_y": -0.017794439859197233,
+      "_z": 0.05533168119099808,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "right foot": {
+     "position": {
+      "x": -0.325978,
+      "y": -1.81081,
+      "z": -0.535515
+     },
+     "rotation": {
+      "_x": 0.2603849508905122,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "right foot arch": {
+     "position": {
+      "x": -0.086104,
+      "y": -0.225579,
+      "z": 0.236767
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "right foot toes": {
+     "position": {
+      "x": -0.012972,
+      "y": -0.105367,
+      "z": 0.19909
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "right butt": {
+     "position": {
+      "x": -0.573758,
+      "y": 0.532875,
+      "z": -0.673496
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "torso bottom": {
+     "position": {
+      "x": 0,
+      "y": 0.534112,
+      "z": -0.297755
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 0.977997366115371,
+      "z": 1
+     }
+    },
+    "torso middle": {
+     "position": {
+      "x": 0,
+      "y": 0.344982,
+      "z": 0.08915
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "torso top": {
+     "position": {
+      "x": 0,
+      "y": 0.598268,
+      "z": 0
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "left breast": {
+     "position": {
+      "x": 0.454129,
+      "y": 0.116296,
+      "z": 0.482833
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    },
+    "right breast": {
+     "position": {
+      "x": -0.45659,
+      "y": 0.116296,
+      "z": 0.482833
+     },
+     "rotation": {
+      "_x": 0,
+      "_y": 0,
+      "_z": 0,
+      "_order": "XYZ"
+     },
+     "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+     }
+    }
+   },
+   "ignore": false,
+   "children": [
+    {
+     "name": "tail",
+     "bones": {
+      "tail base": {
+       "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "tail 1": {
+       "position": {
+        "x": 0,
+        "y": -0.621075,
+        "z": -0.169589
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "tail 2": {
+       "position": {
+        "x": 0,
+        "y": -0.443925,
+        "z": -0.413998
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "tail 3": {
+       "position": {
+        "x": 0,
+        "y": -0.339179,
+        "z": -0.458889
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "tail 4": {
+       "position": {
+        "x": 0,
+        "y": -0.244408,
+        "z": -0.488816
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "tail 5": {
+       "position": {
+        "x": 0,
+        "y": -0.149638,
+        "z": -0.523732
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "tail 6": {
+       "position": {
+        "x": 0,
+        "y": -0.019952,
+        "z": -0.608527
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      }
+     },
+     "ignore": false,
+     "children": []
+    },
+    {
+     "name": "neck",
+     "bones": {
+      "neck": {
+       "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 0.9874060214854751,
+        "y": 0.9874060214854751,
+        "z": 0.9874060214854751
+       }
+      }
+     },
+     "ignore": false,
+     "children": [
+      {
+       "name": "head",
+       "bones": {
+        "head": {
+         "position": {
+          "x": 0,
+          "y": 0.101452,
+          "z": 0
+         },
+         "rotation": {
+          "_x": 0,
+          "_y": 0,
+          "_z": 0,
+          "_order": "XYZ"
+         },
+         "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+         }
+        }
+       },
+       "ignore": false,
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "wings",
+     "bones": {
+      "wingbase": {
+       "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "leftdragonwing1": {
+       "position": {
+        "x": 0.446257,
+        "y": 0.014875,
+        "z": -0.193378
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "leftdragonwing2": {
+       "position": {
+        "x": -0.108299,
+        "y": 0.904111,
+        "z": -0.199938
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "leftdragonwing3": {
+       "position": {
+        "x": 0.183702,
+        "y": 1.2587,
+        "z": 0.591763
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "leftdragonwing4": {
+       "position": {
+        "x": 0.14769,
+        "y": -0.034264,
+        "z": -0.964472
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "leftdragonwing5": {
+       "position": {
+        "x": 0.290568,
+        "y": -0.605522,
+        "z": -0.936609
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "leftdragonwing6": {
+       "position": {
+        "x": 0.396111,
+        "y": -1.09628,
+        "z": -0.430561
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "rightdragonwing1": {
+       "position": {
+        "x": -0.430019,
+        "y": 0.014875,
+        "z": -0.193378
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "rightdragonwing2": {
+       "position": {
+        "x": 0.108299,
+        "y": 0.904111,
+        "z": -0.199938
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "rightdragonwing3": {
+       "position": {
+        "x": -0.183702,
+        "y": 1.2587,
+        "z": 0.591763
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "rightdragonwing4": {
+       "position": {
+        "x": -0.14769,
+        "y": -0.034264,
+        "z": -0.964472
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "rightdragonwing5": {
+       "position": {
+        "x": -0.290568,
+        "y": -0.605522,
+        "z": -0.936609
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "rightdragonwing6": {
+       "position": {
+        "x": -0.396111,
+        "y": -1.09628,
+        "z": -0.430561
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      }
+     },
+     "ignore": false,
+     "children": []
+    },
+    {
+     "name": "left arm",
+     "bones": {
+      "left upper arm": {
+       "position": {
+        "x": 0.054854,
+        "y": -0.057055,
+        "z": 0.165894
+       },
+       "rotation": {
+        "_x": -0.7095116389162506,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "left forearm": {
+       "position": {
+        "x": 0.412157,
+        "y": -1.38236,
+        "z": -0.234495
+       },
+       "rotation": {
+        "_x": -0.44153691563389774,
+        "_y": 0.5157383492841123,
+        "_z": -1.4558208771189889,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+       }
+      }
+     },
+     "ignore": false,
+     "children": [
+      {
+       "name": "left hand",
+       "bones": {
+        "left hand": {
+         "position": {
+          "x": 0.000176,
+          "y": 0.00037,
+          "z": -0.00065
+         },
+         "rotation": {
+          "_x": 0,
+          "_y": 0,
+          "_z": 0,
+          "_order": "XYZ"
+         },
+         "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+         }
+        }
+       },
+       "ignore": false,
+       "children": [
+        {
+         "name": "weapon",
+         "bones": {
+          "weapon": {
+           "position": {
+            "x": 0.44999999999999996,
+            "y": -0.28,
+            "z": 0
+           },
+           "rotation": {
+            "_x": -0.006940843979162563,
+            "_y": 0.060585377604024895,
+            "_z": 0.231098511355338,
+            "_order": "XYZ"
+           },
+           "scale": {
+            "x": 0.7707393938179007,
+            "y": 0.2597486154069233,
+            "z": 0.2597486154069233
+           }
+          }
+         },
+         "ignore": false,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right arm",
+     "bones": {
+      "right upper arm": {
+       "position": {
+        "x": -0.028544999999999997,
+        "y": -0.12468399999999999,
+        "z": 0.143948
+       },
+       "rotation": {
+        "_x": -0.5129151775934003,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      },
+      "right forearm": {
+       "position": {
+        "x": -0.412157,
+        "y": -1.38236,
+        "z": -0.234496
+       },
+       "rotation": {
+        "_x": -1.3173246160950656,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      }
+     },
+     "ignore": false,
+     "children": [
+      {
+       "name": "right hand",
+       "bones": {
+        "right hand": {
+         "position": {
+          "x": -0.000176,
+          "y": 0.00037,
+          "z": -0.00065
+         },
+         "rotation": {
+          "_x": -0.9761076169295988,
+          "_y": 0,
+          "_z": 0,
+          "_order": "XYZ"
+         },
+         "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+         }
+        }
+       },
+       "ignore": false,
+       "children": [
+        {
+         "name": "weapon",
+         "bones": {
+          "weapon": {
+           "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+           },
+           "rotation": {
+            "_x": 0,
+            "_y": 0,
+            "_z": 0,
+            "_order": "XYZ"
+           },
+           "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+           }
+          }
+         },
+         "ignore": false,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "platform",
+     "bones": {
+      "platform": {
+       "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+       },
+       "rotation": {
+        "_x": 0,
+        "_y": 0,
+        "_z": 0,
+        "_order": "XYZ"
+       },
+       "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+       }
+      }
+     },
+     "ignore": false,
+     "children": [
+      {
+       "name": "weapon",
+       "bones": {
+        "weapon": {
+         "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "rotation": {
+          "_x": 0,
+          "_y": 0,
+          "_z": 0,
+          "_order": "XYZ"
+         },
+         "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+         }
+        }
+       },
+       "ignore": false,
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
