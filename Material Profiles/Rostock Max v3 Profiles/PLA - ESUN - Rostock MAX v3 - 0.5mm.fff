@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="PLA - ESUN - Rostock MAX v3 - 0.5mm" version="2022-06-19 19:18:40" app="S3D-Software 4.1.2">
+<profile name="PLA - ESUN - Rostock MAX v3 - 0.5mm" version="2022-09-22 16:41:18" app="S3D-Software 4.1.2">
   <baseProfile>Rostock MAX v3</baseProfile>
   <printMaterial>PETG</printMaterial>
   <printQuality>Medium</printQuality>
@@ -72,14 +72,14 @@
   <externalInfillAngles>45,-45</externalInfillAngles>
   <generateSupport>1</generateSupport>
   <supportExtruder>0</supportExtruder>
-  <supportInfillPercentage>25</supportInfillPercentage>
-  <supportExtraInflation>0</supportExtraInflation>
+  <supportInfillPercentage>30</supportInfillPercentage>
+  <supportExtraInflation>1</supportExtraInflation>
   <supportBaseLayers>0</supportBaseLayers>
   <denseSupportExtruder>0</denseSupportExtruder>
-  <denseSupportLayers>4</denseSupportLayers>
-  <denseSupportInfillPercentage>60</denseSupportInfillPercentage>
+  <denseSupportLayers>0</denseSupportLayers>
+  <denseSupportInfillPercentage>70</denseSupportInfillPercentage>
   <supportLayerInterval>1</supportLayerInterval>
-  <supportHorizontalPartOffset>0.34</supportHorizontalPartOffset>
+  <supportHorizontalPartOffset>0.3</supportHorizontalPartOffset>
   <supportUpperSeparationLayers>1</supportUpperSeparationLayers>
   <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
   <supportType>1</supportType>
@@ -208,7 +208,7 @@
     <bottomSolidLayers>3</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>5</infillPercentage>
-    <supportInfillPercentage>25</supportInfillPercentage>
+    <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
     <layerHeight>0.15</layerHeight>
